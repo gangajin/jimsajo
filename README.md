@@ -57,7 +57,7 @@ jimsajo - 동남아 여행 패키지 구매 사이트
 
 3️⃣ Kakao 로그인 (OAuth2) 사용 외부 서비스 키를 application.properties에 추가합니다.
 
-   spring.security.oauth2.client.registration.kakao.client-id=여기에_카카오_클라이언트_ID_입력
+    spring.security.oauth2.client.registration.kakao.client-id=여기에_카카오_클라이언트_ID_입력
 
 ### ▶️ 빌드 및 실행
 아래 명령어로 애플리케이션을 빌드하고 실행합니다.
