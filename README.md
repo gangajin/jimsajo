@@ -5,6 +5,8 @@ jimsajo - 동남아 여행 패키지 구매 사이트
 
 ### 📚 소개
 여행을 떠나고 싶지만 당장 갈 수 없는 상황에서, 팀원들과 함께 여행 가는 설렘을 느끼고 싶었습니다. 그래서 동남아 여행 패키지를 함께 구매하고, 여행 계획을 이야기하며 출발 전의 설렘을 나눌 수 있는 웹사이트를 만들게 되었습니다.
+### ⏳ 개발 기간  
+🚧 2025.05.05 ~ 🎉 2025.05.26
 
 ## 🛠 개발 환경 및 기술 스택
 
@@ -114,7 +116,7 @@ jimsajo - 동남아 여행 패키지 구매 사이트
 <summary>패키지 주문페이지</summary>
 
 - 줄발일과 돌아오는 날을 정하고 인원수에 따라 금액이 자동으로 설정 (최소 금액인 1원으로 설정: 5명 -> 5원)
-<img src="src/main/resources/static/image/screenshot/ordersForm.png" alt="패키지 주문페이지"/>
+<img src="src/main/resources/static/image/screenshot/ordersFrom.png" alt="패키지 주문페이지"/>
 
 </details>
 
@@ -170,8 +172,3 @@ jimsajo - 동남아 여행 패키지 구매 사이트
 ## 4️⃣ DB 설계
 ### 🗂️ ERD 이미지
 ![ERDiagram](src/main/resources/static/image/screenshot/ER다이어그램.png)
-
-## 5️⃣ 업데이트 및 버전 관리
- ### 📅 개발 기간
- 2025.05.05 ~ 2025.05.26                        
-
