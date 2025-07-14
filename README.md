@@ -166,3 +166,12 @@ jimsajo - 동남아 여행 패키지 구매 사이트
 <img src="src/main/resources/static/image/screenshot/outjoin.png" alt="탈퇴"/>
 
 </details>
+
+## 4️⃣ DB 설계
+### 🗂️ ERD 이미지
+![ERDiagram](src/main/resources/static/image/screenshot/ER다이어그램.png)
+
+## 5️⃣ 업데이트 및 버전 관리
+ ### 📅 개발 기간
+ 2025.05.05 ~ 2025.05.26                        
+
