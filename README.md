@@ -38,7 +38,7 @@ jimsajo - 동남아 여행 패키지 구매 사이트
 - **김현석**: OAuth, 로그인 관련, 회원정보 수정 및 탈퇴, 관리자 권한 부여
 - **이강진**: 결제API,결제 페이지, 1대1 문의 페이지, 리뷰 페이지, 공지사항 페이지
 
-  ## 2️⃣ 설치 및 실행 방법
+## 2️⃣ 설치 및 실행 방법
 ### 📥 Git clone
     git clone https://github.com/gangajin/jimsajo.git
   
