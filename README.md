@@ -38,6 +38,36 @@ jimsajo - 동남아 여행 패키지 구매 사이트
 - **김현석**: OAuth, 로그인 관련, 회원정보 수정 및 탈퇴, 관리자 권한 부여
 - **이강진**: 결제API,결제 페이지, 1대1 문의 페이지, 리뷰 페이지, 공지사항 페이지
 
+  ## 2️⃣ 설치 및 실행 방법
+### 📥 Git clone
+    git clone https://github.com/gangajin/jimsajo.git
+  
+    cd jimsajo
+
+### ⚙️ 환경설정
+1️⃣ MySQL에 다운받은 jimsajo.sql을 붙여넣기 합니다.
+
+2️⃣ src/main/resources/application.properties 파일에 DB 접속 정보를 아래와 같이 설정합니다.
+
+    spring.datasource.url=jdbc:mysql://localhost:3306/jimsajo
+
+    spring.datasource.username=DB_USERNAME
+
+    spring.datasource.password=DB_PASSWORD
+
+3️⃣ Kakao 로그인 (OAuth2) 사용 외부 서비스 키를 application.properties에 추가합니다.
+
+   spring.security.oauth2.client.registration.kakao.client-id=여기에_카카오_클라이언트_ID_입력
+
+### ▶️ 빌드 및 실행
+아래 명령어로 애플리케이션을 빌드하고 실행합니다.
+
+    ./gradlew build
+
+    ./gradlew bootRun
+
+✅ 실행 후 웹 브라우저에서 http://localhost:8080에 접속해 서비스를 확인하세요.
+
 ## 🖥️ 화면 구현 설명
 
 <details>
